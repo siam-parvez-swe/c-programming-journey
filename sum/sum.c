@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a;
+    /*int a;
     int b;
     int sum;
 
@@ -11,7 +11,16 @@ int main()
 
     sum = a + b;
 
-    printf("Sum is %d", sum);
-    
+    printf("Sum is %d", sum);*/
+
+    int a, b, sum;
+
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    sum = a + b;
+
+    printf("Sum is: %d \n", sum);
+
     return 0;
 }
