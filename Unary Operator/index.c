@@ -16,7 +16,16 @@ int main ()
     printf("%d \n", result1);
     printf("%d \n", result2);
 
-
+    int z = 15;
+    printf("z = %d \n", z); // z = 15
+    printf("z = %d \n", z++); // z = 15
+    printf("z = %d \n", z); // z = 16
+    printf("z = %d \n", ++z); // z = 17
+    printf("z = %d \n", z); // z = 17
+    printf("z = %d \n", z--); // z = 17
+    printf("z = %d \n", z); // z = 16
+    printf("z = %d \n", --z); // z = 15
+    printf("z = %d \n", z); // z = 15
     
 
     return 0;
