@@ -19,6 +19,6 @@ int main()
     else{
         printf("Numbers are equal . \n");
     }
-
+    
     return 0;
 }
