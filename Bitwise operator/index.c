@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -10,7 +10,19 @@ int main()
     // >>                       Right Shift
     // <<                       Left Shift
     // ~                        Bitwise NOT
-    
+
+    int a = 32;
+    int b = 12;
+    int c;
+
+    c = a & b;
+    printf("a & b = %d \n", c);
+
+    c = a | b;
+    printf("a | b = %d \n", c);
+
+    c = a ^ b;
+    printf("a ^ b = %d \n", c);
 
     return 0;
 }
