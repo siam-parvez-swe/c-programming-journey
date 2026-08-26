@@ -2,7 +2,7 @@
 
 int main()
 {
-    int num1, num2;
+    int num1, num2; //local variable
 
     printf("Enter first number : ");
     scanf("%d", &num1);
