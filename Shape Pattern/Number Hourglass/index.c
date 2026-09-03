@@ -22,7 +22,7 @@ int main()
         }
         printf("\n");
     }
-    for (row = n; row >= 1; row--)
+    for (row = n-1; row >= 1; row--)
     {
         // space print
         for (int space = 1; space <= row - 1; space++)
