@@ -2,7 +2,7 @@
 
 int main()
 {
-    int numbers[] = {10, 20, 5, 30, 15};
+    int numbers[] = {10, 20, 5, 30, 55};
 
     int sizeOfArray = sizeof(numbers) / sizeof(numbers[0]);
     printf("Size of the array is: %d\n", sizeOfArray);
