@@ -10,7 +10,7 @@ The focus is on understanding core programming concepts, writing clean and reada
 
 ## Learning Resources
 
-- **Anisul Islam** — C Programming Video Series
+- **Anisul Islam** — C Programming Video Series (https://www.youtube.com/watch?v=5sFrHBakZMA&list=PLgH5QX0i9K3pCMBZcul1fta6UivHDbXvz)
 - **Tamim Shahriar Subin** — C Programming Book
 
 ## Concepts & Topics
