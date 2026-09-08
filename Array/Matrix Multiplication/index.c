@@ -4,7 +4,7 @@ int main()
 {
     // 1st matrix col number == 2nd matrix row number
 
-    int first[10][10], second[10][10], result[10][10], r1, r2, c1, c2, i, j, k;
+    int first[10][10], second[10][10], result[10][10], r1, r2, c1, c2, i, j, k, sum = 0;
 
     printf("Enter rows and columns for the 1st matrix : ");
     scanf("%d %d", &r1, &c1);
@@ -45,6 +45,20 @@ int main()
         }
     }
 
+    // multiplying matrix
+    for (i = 0; i < r1; i++)
+    {
+        for (j = 0; j < c2; j++)
+        {
+            for (k = 0; k < c1; k++)
+            {
+                sum = sum + first[i][k] * second[k][j];
+            }
+            result[i][j] = sum;
+            sum = 0;
+        }
+    }
+
     // print 1st matrix
     printf("\n \n First Matrix = ");
     for (i = 0; i < r1; i++)
@@ -52,7 +66,7 @@ int main()
         printf("\n");
         for (j = 0; j < c1; j++)
         {
-            printf("%d", first[i][j]);
+            printf("%d ", first[i][j]);
         }
     }
 
@@ -63,7 +77,19 @@ int main()
         printf("\n");
         for (j = 0; j < c2; j++)
         {
-            printf("%d", second[i][j]);
+            printf("%d ", second[i][j]);
+        }
+        printf("\n");
+    }
+
+    // Printing result matrix
+    printf("\n \n Result Matrix = ");
+    for (i = 0; i < r1; i++)
+    {
+        printf("\n");
+        for (j = 0; j < c2; j++)
+        {
+            printf("%d ", result[i][j]);
         }
         printf("\n");
     }
