@@ -1,15 +1,16 @@
 #include<stdio.h>
 
-// global structure
-struct Person
+
+
+
+int main()
+{
+    struct Person
 {
     int age;
     float salary;
 };
 
-
-int main()
-{
     struct Person person1, person2;
 
     person1.age = 40;
